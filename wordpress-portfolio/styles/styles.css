@@ -736,6 +736,11 @@ section {
   padding-left: 0;
 }
 
+@media screen and (max-width: 420px) {
+  .display-none-mobile-view {
+    display: none !important;
+  }
+}
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
